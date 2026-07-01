@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LINGO INFO - Juillet 2026</title>
+  <meta name="description" content="LINGO INFO - Accord d'intéressement 2026 - CFTC Octapharma Lingolsheim">
+  <style>
+    :root{--blue:#0fb9d4;--dark:#111827;--cftc:#2446a8;--red:#e52d2a;--bg:#f3f6fb;}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:var(--bg);color:var(--dark)}
+    header{position:sticky;top:0;z-index:10;background:#fff;border-bottom:1px solid #dde3ee;padding:12px 16px;box-shadow:0 2px 10px rgba(0,0,0,.05)}
+    .top{max-width:860px;margin:auto;display:flex;align-items:center;justify-content:space-between;gap:12px}
+    h1{font-size:20px;line-height:1.1;margin:0;font-weight:900;letter-spacing:.3px}
+    .sub{font-size:12px;color:#566176;margin-top:2px}
+    .btn{display:inline-flex;align-items:center;justify-content:center;border:0;border-radius:999px;background:var(--cftc);color:white;text-decoration:none;padding:9px 13px;font-weight:800;font-size:13px;white-space:nowrap}
+    main{max-width:860px;margin:0 auto;padding:16px 12px 100px}
+    .intro{background:#fff;border-radius:18px;padding:14px 16px;margin-bottom:14px;border:1px solid #dde3ee}
+    .intro strong{color:var(--cftc)}
+    .page{margin:0 auto 22px;background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 8px 28px rgba(20,35,70,.14);border:1px solid #d8e0ec}
+    .page img{display:block;width:100%;height:auto}
+    .caption{padding:10px 14px;font-weight:800;color:#2d3b53;background:#fff;display:flex;justify-content:space-between;align-items:center}
+    .caption span{font-size:13px;color:#6b7280;font-weight:700}
+    nav{position:fixed;left:0;right:0;bottom:0;background:rgba(255,255,255,.96);backdrop-filter:blur(8px);border-top:1px solid #dde3ee;padding:10px 12px;z-index:20}
+    .navinner{max-width:860px;margin:auto;display:grid;grid-template-columns:1fr auto 1fr;gap:8px;align-items:center}
+    .navbtn{border:0;border-radius:12px;background:var(--cftc);color:white;font-weight:900;padding:12px 10px;font-size:14px;cursor:pointer}
+    .navbtn:disabled{opacity:.35;cursor:not-allowed}
+    .counter{font-weight:900;color:#1f2a44;min-width:70px;text-align:center}
+    .links{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0;justify-content:center}
+    .link2{background:#fff;color:var(--cftc);border:1px solid #c9d4ea;border-radius:999px;padding:9px 13px;text-decoration:none;font-weight:800;font-size:13px}
+    footer{font-size:12px;color:#68758b;text-align:center;padding:16px}
+    @media (min-width:700px){main{padding-top:22px}.page{max-width:420px}.reader{display:grid;grid-template-columns:1fr 1fr;gap:22px;align-items:start}.page{margin-bottom:0}}
+    @media (max-width:699px){.intro{font-size:14px}h1{font-size:18px}.btn{font-size:12px;padding:8px 11px}}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="top">
+      <div>
+        <h1>LINGO INFO</h1>
+        <div class="sub">N°1 - Juillet 2026 · CFTC Octapharma Lingolsheim</div>
+      </div>
+      <a class="btn" href="brochure-accords-cftc-2026.pdf">PDF</a>
+    </div>
+  </header>
+  <main>
+    <section class="intro">
+      <strong>Accord d'intéressement 2026 :</strong> lecture page par page du numéro spécial LINGO INFO.
+    </section>
+    <div class="links">
+      <a class="link2" href="#page-1">Commencer la lecture</a>
+      <a class="link2" href="brochure-accords-cftc-2026.pdf">Télécharger le PDF</a>
+    </div>
+    <section class="reader" id="reader">
+      <article class="page" id="page-1"><img src="pages/page-1.jpg" alt="Page 1 - Couverture"><div class="caption">Page 1 <span>Couverture</span></div></article>
+      <article class="page" id="page-2"><img src="pages/page-2.jpg" alt="Page 2 - Comprendre avant de juger"><div class="caption">Page 2 <span>Comprendre avant de juger</span></div></article>
+      <article class="page" id="page-3"><img src="pages/page-3.jpg" alt="Page 3 - Les décisions du 30 juin 2026"><div class="caption">Page 3 <span>Les décisions</span></div></article>
+      <article class="page" id="page-4"><img src="pages/page-4.jpg" alt="Page 4 - Pourquoi la CFTC n'a pas signé"><div class="caption">Page 4 <span>Pourquoi ?</span></div></article>
+      <article class="page" id="page-5"><img src="pages/page-5.jpg" alt="Page 5 - Notre vision de l'intéressement"><div class="caption">Page 5 <span>Notre vision</span></div></article>
+      <article class="page" id="page-6"><img src="pages/page-6.jpg" alt="Page 6 - Rejoindre la CFTC"><div class="caption">Page 6 <span>Rejoindre la CFTC</span></div></article>
+    </section>
+    <footer>Publication réalisée par la section syndicale CFTC Octapharma Lingolsheim.</footer>
+  </main>
+  <nav>
+    <div class="navinner">
+      <button class="navbtn" id="prev">◀ Précédent</button>
+      <div class="counter" id="counter">1 / 6</div>
+      <button class="navbtn" id="next">Suivant ▶</button>
+    </div>
+  </nav>
+  <script>
+    const total=6; let current=1;
+    const counter=document.getElementById('counter');
+    const prev=document.getElementById('prev'); const next=document.getElementById('next');
+    function go(n){ current=Math.max(1,Math.min(total,n)); document.getElementById('page-'+current).scrollIntoView({behavior:'smooth', block:'start'}); update(); }
+    function update(){ counter.textContent=current+' / '+total; prev.disabled=current===1; next.disabled=current===total; history.replaceState(null,'','#page-'+current); }
+    prev.onclick=()=>go(current-1); next.onclick=()=>go(current+1);
+    const obs=new IntersectionObserver((entries)=>{ entries.forEach(e=>{ if(e.isIntersecting){ current=Number(e.target.id.replace('page-','')); update(); } }); },{threshold:.55});
+    for(let i=1;i<=total;i++) obs.observe(document.getElementById('page-'+i));
+    if(location.hash && location.hash.startsWith('#page-')){ const n=Number(location.hash.replace('#page-','')); if(n) setTimeout(()=>go(n),250); }
+    update();
+  </script>
+</body>
+</html>
